@@ -121,10 +121,8 @@
     font-size: 1.3em;
   }
   ul.values li:last-child {
-    font-size: 1.3em;
-    
+    font-size: 1.3em;   
   }
-
   ul.values li:nth-child(2) {
     color: rgb(64, 203, 241);
     font-size: 1.3em;
