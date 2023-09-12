@@ -2,26 +2,53 @@
 .body {
     position: center;
     background-color: blue;
-    margin-inline : 30% ;
-    margin-top: -22px;
+    margin-inline : 33% ;
+    margin-top: 0px;
     margin-bottom: -5px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    padding: 10px;
 }
 
-.border {
+.text-1{
+    font-size: 1em;
+    font-weight: 400;}
+
+.square{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    border: solid 5px #fff;
+    float: left;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.footer {
     background-color: #03632b;
     color: #fff;
     padding: 0.001em;
     text-align: center;
     font-size: 1em;
+    font-family: "Gill Sans", sans-serif;
+}
+.header {
+    background-color: #03632b;
+    color: #fff;
+    padding: 0.001em;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .part2{
     margin:5px;
     display: flex;
-    justify-content: space-between; /* Create space between div1 and div2 */
+    justify-content: space-evenly; /* Create space between div1 and div2 */
 }
 
 .red-text {
@@ -30,50 +57,64 @@
 
 
 .rectbig {
-    width: 200px; /* Set the width of the big rectangle */
-    height: 150px; /* Set the height of the big rectangle */
+    width: 150px; /* Set the width of the big rectangle */
+    height: 105px; /* Set the height of the big rectangle */
     border: 2px solid #fff;
     display: flex;
     flex-wrap: wrap; /* Allow wrapping of small rectangles */
     justify-content: space-between; /* Distribute space evenly between small rectangles */
     align-content: space-between; /* Distribute space evenly between small rectangles */
+    text-align:center;
   }
   
   /* Style for the small rectangles */
   .rectsmall1{
-    width: calc(33.33% - 4px); 
-    height: calc(66.66% - 4px); 
+    width: 44px; 
+    height: 64px; 
+    margin-left: 1px;
+    margin-top: 1px;
     background-color: green;
     border: 2px solid #fff;   
-    box-sizing: border-box;
   }
   .rectsmall {
-    width: calc(33.33% - 4px); 
-    height: calc(33.33% - 4px); 
+    width: 44px; 
+    height: 30px; 
+    margin-bottom: 1px;
+    margin-left: 1px;
     border: 2px solid #fff;   
-    box-sizing: border-box;
   }
   .rectsmall2{
-    width: calc(66.66% - 4px); 
-    height: calc(33.33% - 4px); 
+    width: 95px; 
+    height: 30px; 
+    margin-bottom: 1px;
+    margin-right: 1px;
     background-color: red;
     border: 2px solid #fff;   
-    box-sizing: border-box;
   }
 
   .rectsmall3{
-    width: 132px;
-    height: 50px;
+    width: 99px;
+    height: 64px; 
     display: flex;
     flex-wrap: wrap; /* Allow wrapping of small rectangles */
     justify-content: space-between; /* Distribute space evenly between small rectangles */
     align-content: space-between; /* Distribute space evenly between small rectangles */
   }
   .rectsmall3 .rectsmall4 {
-    width: 66px; 
-    height: 50px; 
+    width: 44px; 
+    height: 30px; 
+    margin-right: 1px;
+    margin-top: 1px;
     border: 2px solid #fff;   
-    box-sizing: border-box;
+  }
+  
+
+  .link {
+    text-align: center;
+    float: center;
+  }
+  .img{
+    float: right;
   }
 
   ul.values li:first-child {
@@ -81,9 +122,23 @@
   }
   ul.values li:last-child {
     font-size: 1.3em;
+    
   }
 
   ul.values li:nth-child(2) {
     color: rgb(64, 203, 241);
     font-size: 1.3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-palette: bold;
   }
+  ul.values li:nth-child(n){
+    margin:30px;
+  }
+
+  .secondlist{
+    list-style: none;
+  }
+ .secondlist li:nth-child(n){
+     margin-bottom: 15px;
+}
+ 
