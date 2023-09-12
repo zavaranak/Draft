@@ -1,5 +1,89 @@
 
+.body {
+    position: center;
+    background-color: blue;
+    margin-inline : 30% ;
+    margin-top: -22px;
+    margin-bottom: -5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.border {
+    background-color: #03632b;
+    color: #fff;
+    padding: 0.001em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.part2{
+    margin:5px;
+    display: flex;
+    justify-content: space-between; /* Create space between div1 and div2 */
+}
 
 .red-text {
-  color: red;
+  color: rgb(177, 31, 31);
 }
+
+
+.rectbig {
+    width: 200px; /* Set the width of the big rectangle */
+    height: 150px; /* Set the height of the big rectangle */
+    border: 2px solid #fff;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of small rectangles */
+    justify-content: space-between; /* Distribute space evenly between small rectangles */
+    align-content: space-between; /* Distribute space evenly between small rectangles */
+  }
+  
+  /* Style for the small rectangles */
+  .rectsmall1{
+    width: calc(33.33% - 4px); 
+    height: calc(66.66% - 4px); 
+    background-color: green;
+    border: 2px solid #fff;   
+    box-sizing: border-box;
+  }
+  .rectsmall {
+    width: calc(33.33% - 4px); 
+    height: calc(33.33% - 4px); 
+    border: 2px solid #fff;   
+    box-sizing: border-box;
+  }
+  .rectsmall2{
+    width: calc(66.66% - 4px); 
+    height: calc(33.33% - 4px); 
+    background-color: red;
+    border: 2px solid #fff;   
+    box-sizing: border-box;
+  }
+
+  .rectsmall3{
+    width: 132px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of small rectangles */
+    justify-content: space-between; /* Distribute space evenly between small rectangles */
+    align-content: space-between; /* Distribute space evenly between small rectangles */
+  }
+  .rectsmall3 .rectsmall4 {
+    width: 66px; 
+    height: 50px; 
+    border: 2px solid #fff;   
+    box-sizing: border-box;
+  }
+
+  ul.values li:first-child {
+    font-size: 1.3em;
+  }
+  ul.values li:last-child {
+    font-size: 1.3em;
+  }
+
+  ul.values li:nth-child(2) {
+    color: rgb(64, 203, 241);
+    font-size: 1.3em;
+  }
