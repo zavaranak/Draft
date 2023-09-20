@@ -55,6 +55,7 @@
   color: rgb(177, 31, 31);
 }
 table, td, tr {
+  vertical-align: bottom;
   margin-left: 100px;
   border: 1px solid white;
   width: 150px;

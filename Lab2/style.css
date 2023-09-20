@@ -1,0 +1,183 @@
+body{
+	font-size: 15px;
+}
+.span-2-1 {
+	color:red;
+	font-style: italic;
+}
+.body1{
+	background-color: #EAEAEA;
+	height: 50px;
+	margin-top:-20px;
+}
+.col-left{
+	width: 200px;
+	height: 100%;
+	background-color: #C8FC98;
+	float: left;
+}
+.col-right{
+	width: 200px;
+	height: 100%;
+	background-color: #FFFF80;
+	float: right;
+}
+.col-left-2-2{
+	width: 25%;
+	height: 100%;
+	background-color: #C8FC98;
+	float: left;
+}
+.col-main{
+	height: 100%;
+	content: fluid;
+}
+.col-main-2-3{
+	margin:0 auto 0 auto;
+	width:500px;
+	background-color: blue;
+	color:white;
+	position: relative;
+}
+
+.col-main-2-4{
+	margin:0 auto 0 auto;
+	width:500px;
+	height:100%;
+	background-color: blue;
+	color:white;
+}
+.col-main-2-5-1{
+	margin:0 auto 0 auto;
+	width:500px;
+	height:100%;
+	background-color: green;
+	color:white;
+}
+.col-main-2-5-2{
+	padding: 50px;
+	margin:0 auto 0 auto;
+	width:500px;
+	height:100%;
+	background-color: blue;
+	color:white;
+}
+.col-main-2-6-1{
+	margin:0 auto 0 auto;
+	width:500px;
+	height:100%;
+	background-color: white;
+	color:black;
+}
+.col-main-2-6-2{
+	border: 10px blue solid;
+	box-sizing: border-box;
+	padding:30px;
+	margin:0 auto 0 auto;
+	width:500px;
+	height:100%;
+	background-color: white;
+	color:black;
+}
+
+.div1{
+	width:150px;
+	height:100px;
+	background-color: blueviolet;
+	color:white;
+	position:static;
+}
+.div2{
+	width:150px;
+	height:100px;
+	background-color: darkred;
+	color:white;
+	position:relative;
+}
+.div3{
+	width:150px;
+	height:100px;
+	background-color: peru;
+	color:white;
+	position:relative;
+	top:-70px;
+	lefT:40px;
+}
+.div4{
+	width:550px;
+	height:350px;
+	background-color: indianred;
+	color:white;
+	position:relative;
+}
+
+.div5{
+	width:250px;
+	height:150px;
+	background-color: indigo;
+	color:white;
+	position:absolute;
+	right:0;
+	bottom:70px;
+}
+.div6{
+	width: 100px;
+	height: 100px;
+	background-color: forestgreen;
+	color: white;
+	position: fixed;
+	right: 100px;
+	bottom:0;
+}
+
+.div-2-8{
+	display: flex;
+	padding-bottom: 50vh;
+
+}
+.nav{
+	background-color: aqua;
+}
+
+.list-2-8{
+	width: 150px;
+	margin-top: 0;
+	background-color: bisque;
+}
+.text-2-8{
+	background-color: darkgray;
+}
+.text-2-8 p{
+	margin:0;
+}
+.foot-line{
+	position:fixed;
+	background-color: limegreen;
+	width: 100%;
+	height: 30px;
+	bottom :0;
+}
+
+.img-2-9
+{
+	float:right;
+}
+
+.float1{
+	width:200px;
+	height: 100px;
+	background-color: aqua;
+	float:left;
+	margin-bottom: 20px;
+}
+.float2{
+	height: 20px;
+	background-color: bisque;
+	clear: left;
+}
+.div-2-11{
+	background-color: aqua;
+	padding: 0;
+	border: 1px forestgreen solid;
+	vertical-align: baseline;
+}
