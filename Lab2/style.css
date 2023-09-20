@@ -12,13 +12,13 @@ body{
 }
 .col-left{
 	width: 200px;
-	height: 100%;
+	height: 100vh;
 	background-color: #C8FC98;
 	float: left;
 }
 .col-right{
 	width: 200px;
-	height: 100%;
+	height: 100vh;
 	background-color: #FFFF80;
 	float: right;
 }
@@ -29,7 +29,7 @@ body{
 	float: left;
 }
 .col-main{
-	height: 100%;
+	height: 100vh;
 	content: fluid;
 }
 .col-main-2-3{
@@ -43,14 +43,13 @@ body{
 .col-main-2-4{
 	margin:0 auto 0 auto;
 	width:500px;
-	height:100%;
+	height:100vh;
 	background-color: blue;
 	color:white;
 }
 .col-main-2-5-1{
 	margin:0 auto 0 auto;
 	width:500px;
-	height:100%;
 	background-color: green;
 	color:white;
 }
@@ -58,14 +57,12 @@ body{
 	padding: 50px;
 	margin:0 auto 0 auto;
 	width:500px;
-	height:100%;
 	background-color: blue;
 	color:white;
 }
 .col-main-2-6-1{
 	margin:0 auto 0 auto;
 	width:500px;
-	height:100%;
 	background-color: white;
 	color:black;
 }
@@ -75,11 +72,9 @@ body{
 	padding:30px;
 	margin:0 auto 0 auto;
 	width:500px;
-	height:100%;
 	background-color: white;
 	color:black;
 }
-
 .div1{
 	width:150px;
 	height:100px;
