@@ -126,7 +126,7 @@ body{
 	background-color: forestgreen;
 	color: white;
 	position: fixed;
-	right: 100px;
+	right: 0;
 	bottom:0;
 }
 
@@ -162,7 +162,7 @@ body{
 .float1{
 	width:200px;
 	height: 100px;
-	background-color: aqua;
+	background-color: aquamarine;
 	float:left;
 	margin-bottom: 20px;
 }
