@@ -64,7 +64,6 @@ header{
 .post{
     margin:5vh 6vw 5vh 3vw;
     width: 28vw;
-    align-content: center;
     border-radius: 10px;
     border: 2px solid #d0d0d0;
     background-color: #edeef0;
@@ -72,7 +71,7 @@ header{
 }
 .line{
     margin-inline:1vw;
-    width: 90%;
+    width: 93%;
     height: 1px;
     background-color: #d0d0d0;
 }
@@ -87,9 +86,9 @@ header{
     margin-bottom: 3px;
 }
 .post-img{
-    max-width: 90%;
-    max-height: 90%;
-    margin: 1.5vh 1vw;
+    max-width: 91%;
+    max-height: 91%;
+    margin:20px;
 }
 footer{
     color: gray;
