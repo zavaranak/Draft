@@ -1,23 +1,16 @@
 
-fetch('Text.txt')
-        .then(function(response){
-            return response.text();
-        })
-        .then(function(data){
-            let paragraph = document.getElementsByClassName('small-text');
-            const line=data.split('\n');
-            const firstline = line[1];
-            for(i=0;i<paragraph.length;i++){
-            paragraph[i].textContent=firstline;
-            paragraph[i].style.fontSize ='0.8em';
-            paragraph[i].style.marginInline='3.1em';
-            }
-            let news = document.getElementById('pop-news');
-            news.textContent=data;
-        })
-        .catch(function(error){
-            console.error("Error:",error);
-        })
+var json = {
+    short:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem!Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit?',
+    long:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem!Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium."
+};
+
+for(i=0;i<paragraph.length;i++){
+    paragraph[i].textContent=json.short;
+    paragraph[i].style.fontSize ='0.8em';
+    paragraph[i].style.marginInline='3.1em';
+    }
+let news = document.getElementById('pop-news');
+news.textContent=json.long;
 let heading3 = document.querySelectorAll('h3');
 heading3.forEach((h3,j)=>{
     h3.textContent = `Новость ${j+1}`;

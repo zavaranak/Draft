@@ -33,7 +33,7 @@ a{
 
 .nav{
     width: 25vw;
-    height: 100vh;
+    height: 94vh;
     background-color: red;
     padding-inline: 30px;
 }
@@ -58,10 +58,13 @@ a{
     font-size:1.5em;
 }
 
-.nav ::selection{
+.content ::selection{
     background:green;
 }
 
+li:hover{
+    background-color: green;
+}
 
 @media screen and (max-height:700px){
     .main{
