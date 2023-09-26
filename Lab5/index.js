@@ -4,6 +4,7 @@ var json = {
     long:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem!Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium."
 };
 
+let paragraph = document.getElementsByClassName('small-text');
 for(i=0;i<paragraph.length;i++){
     paragraph[i].textContent=json.short;
     paragraph[i].style.fontSize ='0.8em';
